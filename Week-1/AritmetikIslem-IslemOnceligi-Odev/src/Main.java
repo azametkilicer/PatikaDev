@@ -6,11 +6,11 @@ public class Main {
             Scanner scanner = new Scanner(System.in);
 
             // Kullanıcıdan a, b ve c sayılarını alıyoruz
-            System.out.println("Lütfen a sayısını giriniz:");
+            System.out.println(" 1. sayıyı giriniz:");
             int a = scanner.nextInt();
-            System.out.println("Lütfen b sayısını giriniz:");
+            System.out.println("2. sayıyı giriniz:");
             int b = scanner.nextInt();
-            System.out.println("Lütfen c sayısını giriniz:");
+            System.out.println("3. sayıyı giriniz:");
             int c = scanner.nextInt();
 
             // Hesaplama yapılıyor: a + b * c - b

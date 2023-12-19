@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+
         // Kullanıcıdan sorgulamak istediği yılı istiyoruz
         System.out.print("Yıl Girin: ");
         int year = scanner.nextInt();

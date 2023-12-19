@@ -60,3 +60,4 @@ public class Main {
         System.out.println("Çin Zodyağı Burcunuz: " + burc);
     }
 }
+

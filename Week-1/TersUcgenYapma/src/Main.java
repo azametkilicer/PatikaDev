@@ -7,17 +7,17 @@ public class Main {
         int basamakSayisi = input.nextInt();
 
         for (int i = 0; i < basamakSayisi; i++) {
-            // Boşlukları yazdır
+            // Boşlukları yazdırır
             for (int j = 0; j < i; j++) {
                 System.out.print(" ");
             }
 
-            // Yıldızları yazdır
+            // Yıldızları yazdırır
             for (int k = 0; k < 2 * (basamakSayisi - i) - 1; k++) {
                 System.out.print("*");
             }
 
-            // Satırı bitir
+           
             System.out.println();
         }
     }

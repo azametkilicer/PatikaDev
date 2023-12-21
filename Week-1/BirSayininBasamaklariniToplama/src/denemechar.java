@@ -9,7 +9,7 @@ public class denemechar {
         String numberStr = String.valueOf(number);
         int toplam = 0;
 
-        for (int i = 0; i < numberStr.length(); i++) {
+        for (int i = 2; i < numberStr.length(); i++) {
             // Her bir basamağı char olarak al
             char basamakChar = numberStr.charAt(i);
 
